@@ -1,0 +1,70 @@
+.scanner {
+	margin: 80px;
+	height: 35px;
+	display: block;
+	width: 35px;
+	opacity: 0.1;
+}
+
+.laser-center {
+	top: 0;
+	left: 0;
+}
+
+.laser-leftTop {
+	top: 0;
+	left: 0;
+	border-top: solid #007bff 5px;
+	border-left: solid #007bff 5px;
+}
+
+.laser-leftBottom {
+	bottom: 0;
+	left: 0;
+	border-bottom: solid #007bff 5px;
+	border-left: solid #007bff 5px;
+}
+
+.laser-rightTop {
+	top: 0;
+	right: 0;
+	border-top: solid #007bff 5px;
+	border-right: solid #007bff 5px;
+}
+
+.laser-rightBottom {
+	bottom: 0;
+	right: 0;
+	border-bottom: solid #007bff 5px;
+	border-right: solid #007bff 5px;
+}
+
+#id_work_days input[type="checkbox"] {
+	display: none;
+}
+
+#id_work_days{
+	display: block;
+}
+
+#id_work_days span {
+	display: inline-block;
+	padding: 10px;
+	width:100%;
+	text-transform: uppercase;
+	border: 2px solid #007bff;
+	border-radius: 3px;
+	color: #007bff;
+}
+
+#id_work_days input[type="checkbox"]:checked + span {
+	background-color: #007bff;
+	color: black;
+}
+
+video {
+	border: 2px solid #007bff !important;
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+}

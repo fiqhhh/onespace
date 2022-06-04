@@ -1,0 +1,10 @@
+#btn_view , #btn_hide{
+	color:dimgrey !important; 
+	top:20px !important;
+	border-left:none !important;
+	cursor:pointer !important;
+	font-size:14px !important;
+}
+#btn_hide{
+	display:none;
+}
